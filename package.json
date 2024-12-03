@@ -1,0 +1,31 @@
+{
+  "name": "onelsp.env",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "language server for .env files (LSP)",
+  "author": "onexbash",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onexbash/onelsp.env.git"
+  },
+  "keywords": [
+    "nvim",
+    "vim",
+    "lsp",
+    "env",
+    "environment",
+    "plugin",
+    "language server"
+  ],
+  "main": "server.js",
+  "scripts": {
+    "hihi": "echo \"hihi this script is completely useless\""
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "vscode-languageserver": "^9.0.1"
+  }
+}
